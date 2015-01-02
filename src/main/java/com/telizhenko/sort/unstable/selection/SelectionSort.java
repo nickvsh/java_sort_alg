@@ -21,14 +21,14 @@ package com.telizhenko.sort.unstable.selection;
  * Data structure	Array
  * <p/>
  * Data structure	Array
- * Worst case performance	Î(n2)
- * Best case performance	Î(n2)
- * Average case performance	Î(n2)
- * Worst case space complexity	Î(n) total, O(1) auxiliary
+ * Worst case performance	ï¿½(n2)
+ * Best case performance	ï¿½(n2)
+ * Average case performance	ï¿½(n2)
+ * Worst case space complexity	ï¿½(n) total, O(1) auxiliary
  */
 public class SelectionSort {
 
-    private static int[] selectionSort(int[] array) {
+    public static int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int index = i;
             for (int j = i + 1; j < array.length; j++)

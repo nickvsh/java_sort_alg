@@ -26,7 +26,7 @@ import static com.telizhenko.sort.utils.SwapUtil.swap;
  */
 public class BubbleSort {
 
-    private static int[] bubbleSort(int[] array) {
+    public static int[] bubbleSort(int[] array) {
         int a = array.length;
         int temp;
         for (int i = 0; i < a - 1; i++) {
